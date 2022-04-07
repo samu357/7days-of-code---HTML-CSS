@@ -105,7 +105,6 @@ nav ul li {
   margin-right: 32px;
 }
 
-
 .metricas-container h1 {
   font-size: 60px;
   color: #8e2424;
@@ -120,4 +119,98 @@ nav ul li {
 .metricas-container p {
   color: #3A404E;
   font-size: 16px;
+}
+
+/* talentos */
+.talentos {
+  padding: 112px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 16px;
+  padding-top: 128px;
+  gap: 16px;
+}
+
+.talentos h2 {
+  text-align: center;
+  color: #101828
+}
+
+.talentos span {
+  background: rgba(142, 36, 36, 0.05);
+  border-radius: 16px;
+  color: #8e2424;
+  font-weight: bold;
+}
+
+.talentos p {
+  text-align: center;
+  color: gray;
+}
+
+.talentos img {
+  margin-top: 32px;
+}
+
+/* vagas */
+
+.vagas-abertas {
+  padding-top: 64px;
+}
+
+.vagas-abertas h2.principal {
+  display: block;
+  max-width: 50%;
+  margin: 0 auto;
+  margin-top: 16px;
+  margin-bottom: 16px;
+  color: #101828;
+  font-weight: bold;
+}
+
+.vagas-abertas h3.title-vaga {
+  font-weight: 500;
+  margin-bottom: 16px;
+}
+
+.card-vaga {
+  border: 1px solid #eaecf0;
+  border-radius: 8px;
+  padding: 16px;
+  max-width: 50%;
+  margin: 0 auto;
+  margin-bottom: 16px;
+  color: #101828;
+}
+
+
+.card-vaga .descricao {
+  margin-top: 8px;
+  font-size: 90%;
+  color: #667085;
+  display: flex;
+  gap: 16px;
+}
+
+
+/* .card-vaga h2 {
+  font-size: 20px;
+}
+
+.card-vaga p {
+  font-size: 16px;
+  color: #667085;
+} */
+
+.depoimentos {
+  background: #C3191908;
+  display: flex;
+  padding: 0 32px 0 32px;
+}
+
+.content {
+  width: 1216px;
+  height: 404px;
+  border-radius: 16px;
 }
