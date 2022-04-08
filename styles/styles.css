@@ -96,7 +96,7 @@ nav ul li {
 /* metricas */
 
 .metricas-container {
-  padding: 0 32px 0px 32px;
+  padding: 0 160px;
   display: flex;
   justify-content: space-between;
 }
@@ -130,6 +130,11 @@ nav ul li {
   padding: 0 16px;
   padding-top: 128px;
   gap: 16px;
+}
+
+.talentos img {
+  margin-top: 32px;
+  width: 80%;
 }
 
 .talentos h2 {
@@ -193,24 +198,42 @@ nav ul li {
   gap: 16px;
 }
 
-
-/* .card-vaga h2 {
-  font-size: 20px;
-}
-
-.card-vaga p {
-  font-size: 16px;
-  color: #667085;
-} */
-
 .depoimentos {
-  background: #C3191908;
   display: flex;
-  padding: 0 32px 0 32px;
+  flex-direction: column;
+  align-items: center;
+  max-width: 80%;
+  margin: 128px auto;
+  background-color: rgba(195, 25, 25, 0.05);
+  padding: 48px 32px;
 }
 
-.content {
-  width: 1216px;
-  height: 404px;
-  border-radius: 16px;
+.depoimentos span {
+  font-weight: 500px;
+  text-align: center;
+  color: #8e2424;
+}
+
+.depoimentos img {
+  width: 48px;
+}
+
+.depoimentos h2 {
+  color: #101828;
+  text-align: center;
+  font-weight: 500;
+  max-width: 70%;
+  margin: 32px 0;
+}
+
+.depoimentos span.name {
+  color: #101828;
+  margin: 8px 0;
+  font-weight: 400;
+
+}
+
+.depoimentos span.cargo {
+  font-weight: 400;
+  color: #667085;
 }
